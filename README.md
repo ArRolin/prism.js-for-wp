@@ -10,3 +10,20 @@ Prism.js for WordPress is a Code Syntax Highlighter WordPress plugin that will c
 Because i Update asset files (hope i update all time) & Modify or Add Some code in main plugins file.
 
 **Paulund** Plugin have an issue in html highliting and support only HTML, CSS, JavaScript & PHP highliting. 
+
+**Languages Supported:**
+* Bash
+* C
+* CoffeScript
+* C++
+* C#
+* CSS
+* HTTP
+* Java
+* JavaScript
+* HTML
+* PHP
+* Python
+* Ruby
+* SCSS
+* SQL
