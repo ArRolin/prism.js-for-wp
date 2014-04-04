@@ -50,3 +50,11 @@ Ruby | `[ru]your code[/ru]`
 SCSS | `[scss]your code[/scss]`
 SQL | `[sql]your code[/sql]`
 GO | `[go]your code[/go]`
+
+## Credits
+[**Paulund**](https://github.com/paulund) for Main Plugin
+
+[**Lea Verou**](http://lea.verou.me/) for [**Prism.js**](http://prismjs.com/)
+
+## License
+[GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
