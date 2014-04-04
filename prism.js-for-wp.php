@@ -49,6 +49,8 @@ add_shortcode( 'php' , 'paulund_hightlight_php' );
 add_shortcode( 'clike' , 'paulund_hightlight_clike' );
 add_shortcode( 'clike' , 'paulund_hightlight_clike' );
 add_shortcode( 'c' , 'paulund_hightlight_c' );
+add_shortcode( 'cpp' , 'paulund_hightlight_cpp' );
+add_shortcode( 'csharp' , 'paulund_hightlight_csharp' );
 
 function paulund_hightlight_html($atts, $content = null)
 {
@@ -78,6 +80,16 @@ function paulund_hightlight_clike($atts, $content = null)
 function paulund_hightlight_c($atts, $content = null)
 {
     return pu_encode_content('c', $content);
+}
+
+function paulund_hightlight_cpp($atts, $content = null)
+{
+    return pu_encode_content('cpp', $content);
+}
+
+function paulund_hightlight_csharp($atts, $content = null)
+{
+    return pu_encode_content('csharp', $content);
 }
 
 function pu_encode_content($lang, $content)
