@@ -3,7 +3,7 @@
  * Plugin Name: Prism.js For WordPress
  * Plugin URI: http://binaryar.com
  * Description: A Shortcode allows you to display code on your Website
- * Version: 1.0
+ * Version: 1.1
  * Author: ArRolin
  * Author URI: http://binaryar.com
  * License: GPL2
