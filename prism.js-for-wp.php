@@ -3,7 +3,7 @@
  * Plugin Name: Prism.js For WordPress
  * Plugin URI: https://github.com/ArRolin/prism.js-for-wp
  * Description: A Shortcode allows you to display code on your Website
- * Version: 1.2
+ * Version: 1.5
  * Author: ArRolin
  * Author URI: http://binaryar.com
  * License: GPL2
@@ -55,6 +55,10 @@ add_shortcode( 'bash' , 'paulund_hightlight_bash' );
 add_shortcode( 'java' , 'paulund_hightlight_java' );
 add_shortcode( 'scss' , 'paulund_hightlight_scss' );
 add_shortcode( 'sql' , 'paulund_hightlight_sql' );
+add_shortcode( 'python' , 'paulund_hightlight_python' );
+add_shortcode( 'ruby' , 'paulund_hightlight_ruby' );
+add_shortcode( 'http' , 'paulund_hightlight_http' );
+add_shortcode( 'go' , 'paulund_hightlight_go' );
 
 function paulund_hightlight_html($atts, $content = null)
 {
@@ -119,6 +123,26 @@ function paulund_hightlight_scss($atts, $content = null)
 function paulund_hightlight_sql($atts, $content = null)
 {
     return pu_encode_content('sql', $content);
+}
+
+function paulund_hightlight_python($atts, $content = null)
+{
+    return pu_encode_content('python', $content);
+}
+
+function paulund_hightlight_ruby($atts, $content = null)
+{
+    return pu_encode_content('ruby', $content);
+}
+
+function paulund_hightlight_http($atts, $content = null)
+{
+    return pu_encode_content('http', $content);
+}
+
+function paulund_hightlight_go($atts, $content = null)
+{
+    return pu_encode_content('go', $content);
 }
 
 function pu_encode_content($lang, $content)
