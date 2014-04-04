@@ -1,13 +1,15 @@
 <?php
 /*
  * Plugin Name: Prism.js For WordPress
- * Plugin URI: http://binaryar.com
+ * Plugin URI: https://github.com/ArRolin/prism.js-for-wp
  * Description: A Shortcode allows you to display code on your Website
  * Version: 1.1
  * Author: ArRolin
  * Author URI: http://binaryar.com
  * License: GPL2
  * Stable tag: trunk
+ * GitHub Plugin URI: https://github.com/ArRolin/prism.js-for-wp
+ * GitHub Branch:     master
 
     Copyright 2014  ArRolin
 
