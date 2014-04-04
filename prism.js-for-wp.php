@@ -53,6 +53,8 @@ add_shortcode( 'cpp' , 'paulund_hightlight_cpp' );
 add_shortcode( 'csharp' , 'paulund_hightlight_csharp' );
 add_shortcode( 'bash' , 'paulund_hightlight_bash' );
 add_shortcode( 'java' , 'paulund_hightlight_java' );
+add_shortcode( 'scss' , 'paulund_hightlight_scss' );
+add_shortcode( 'sql' , 'paulund_hightlight_sql' );
 
 function paulund_hightlight_html($atts, $content = null)
 {
@@ -107,6 +109,16 @@ function paulund_hightlight_bash($atts, $content = null)
 function paulund_hightlight_java($atts, $content = null)
 {
     return pu_encode_content('java', $content);
+}
+
+function paulund_hightlight_scss($atts, $content = null)
+{
+    return pu_encode_content('scss', $content);
+}
+
+function paulund_hightlight_sql($atts, $content = null)
+{
+    return pu_encode_content('sql', $content);
 }
 
 function pu_encode_content($lang, $content)
