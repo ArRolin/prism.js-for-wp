@@ -46,11 +46,13 @@ add_shortcode( 'html' , 'paulund_hightlight_html' );
 add_shortcode( 'css' , 'paulund_hightlight_css' );
 add_shortcode( 'javascript' , 'paulund_hightlight_javascript' );
 add_shortcode( 'php' , 'paulund_hightlight_php' );
-add_shortcode( 'clike' , 'paulund_hightlight_clike' );
+add_shortcode( 'coffeescript' , 'paulund_hightlight_coffeescript' );
 add_shortcode( 'clike' , 'paulund_hightlight_clike' );
 add_shortcode( 'c' , 'paulund_hightlight_c' );
 add_shortcode( 'cpp' , 'paulund_hightlight_cpp' );
 add_shortcode( 'csharp' , 'paulund_hightlight_csharp' );
+add_shortcode( 'bash' , 'paulund_hightlight_bash' );
+add_shortcode( 'java' , 'paulund_hightlight_java' );
 
 function paulund_hightlight_html($atts, $content = null)
 {
@@ -72,6 +74,11 @@ function paulund_hightlight_php($atts, $content = null)
     return pu_encode_content('php', $content);
 }
 
+function paulund_hightlight_coffeescript($atts, $content = null)
+{
+    return pu_encode_content('coffeescript', $content);
+}
+
 function paulund_hightlight_clike($atts, $content = null)
 {
     return pu_encode_content('clike', $content);
@@ -90,6 +97,16 @@ function paulund_hightlight_cpp($atts, $content = null)
 function paulund_hightlight_csharp($atts, $content = null)
 {
     return pu_encode_content('csharp', $content);
+}
+
+function paulund_hightlight_bash($atts, $content = null)
+{
+    return pu_encode_content('bash', $content);
+}
+
+function paulund_hightlight_java($atts, $content = null)
+{
+    return pu_encode_content('java', $content);
 }
 
 function pu_encode_content($lang, $content)
