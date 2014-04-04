@@ -52,7 +52,7 @@ SQL | `[sql]your code[/sql]`
 GO | `[go]your code[/go]`
 
 ## Credits
-[**Paulund**](https://github.com/paulund) for Main Plugin
+[**Paulund**](paulund.co.uk) for Main Plugin
 
 [**Lea Verou**](http://lea.verou.me/) for [**Prism.js**](http://prismjs.com/)
 
