@@ -31,7 +31,8 @@ Because i Update asset files (hope i update all time) & Modify or Add Some code 
 * GO
 
 ## How To Use:
-
+Languase | Code
+-------- | ----
 Bash | `[bash]your code[/bash]`
 C | `[c]your code[/c]`
 C-like | `[clike]your code[/clike]`
