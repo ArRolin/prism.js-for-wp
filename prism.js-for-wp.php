@@ -44,7 +44,7 @@ remove_filter('the_excerpt', 'wptexturize');
 
 add_shortcode( 'html' , 'paulund_hightlight_html' );
 add_shortcode( 'css' , 'paulund_hightlight_css' );
-add_shortcode( 'javascript' , 'paulund_hightlight_javascript' );
+add_shortcode( 'js' , 'paulund_hightlight_javascript' );
 add_shortcode( 'php' , 'paulund_hightlight_php' );
 add_shortcode( 'coffeescript' , 'paulund_hightlight_coffeescript' );
 add_shortcode( 'clike' , 'paulund_hightlight_clike' );
@@ -55,8 +55,8 @@ add_shortcode( 'bash' , 'paulund_hightlight_bash' );
 add_shortcode( 'java' , 'paulund_hightlight_java' );
 add_shortcode( 'scss' , 'paulund_hightlight_scss' );
 add_shortcode( 'sql' , 'paulund_hightlight_sql' );
-add_shortcode( 'python' , 'paulund_hightlight_python' );
-add_shortcode( 'ruby' , 'paulund_hightlight_ruby' );
+add_shortcode( 'py' , 'paulund_hightlight_python' );
+add_shortcode( 'ru' , 'paulund_hightlight_ruby' );
 add_shortcode( 'http' , 'paulund_hightlight_http' );
 add_shortcode( 'go' , 'paulund_hightlight_go' );
 
