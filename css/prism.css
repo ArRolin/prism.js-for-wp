@@ -1,3 +1,4 @@
+/* http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+twig+css+css-extras+clike+javascript+java+php+php-extras+coffeescript+scss+bash+c+cpp+python+sql+groovy+http+ruby+rip+gherkin+csharp+go+nsis+aspnet+scala+swift+objectivec+autohotkey+ini&plugins=line-highlight+line-numbers+show-language */
 /**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
@@ -199,17 +200,24 @@ pre.line-numbers > code {
 			padding-right: 0.8em;
 			text-align: right;
 		}
-.token a {
-	color: inherit;
+pre[class*='language-'] {
+	position: relative;
 }
-code[class*="language-"] a[href],
-pre[class*="language-"] a[href] {
-	cursor: help;
-	text-decoration: none;
+pre[class*='language-'] > code[data-language] {
+	overflow: scroll;
+	max-height: 28em;
+	display: block;
 }
-
-code[class*="language-"] a[href]:hover,
-pre[class*="language-"] a[href]:hover {
-	cursor: help;
-	text-decoration: underline;
+pre[class*='language-'] > code[data-language]::before {
+	content: attr(data-language);
+	color: black;
+	background-color: #CFCFCF;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 0.9em;
+	border-radius: 0 0 0 5px;
+	padding: 0 0.5em;
+	text-shadow: none;
 }
