@@ -9,7 +9,7 @@
 ### Why i Made this Repo ?
 Because i Update asset files (hope i update all time) & Modify or Add Some code in main plugins file.
 
-**Paulund** Plugin have an issue in html highliting and support only HTML, CSS, JavaScript & PHP highliting. 
+**Paulund** Plugin have support only HTML, CSS, JavaScript & PHP highliting. 
 
 **Languages Supported:**
 * Bash
