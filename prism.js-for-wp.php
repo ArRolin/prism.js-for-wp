@@ -30,7 +30,7 @@ add_action('wp_enqueue_scripts', 'pu_load_styles');
  */
 function pu_load_styles()
 {
-    wp_enqueue_script( 'prism_js', plugins_url( '/js/prism.js' , __FILE__ ) , array( 'jquery' ), NULL, true );
+    wp_enqueue_script( 'prism_js', plugins_url( '/js/prism.js' , __FILE__ ) , array( 'jquery' ), false, true );
     wp_enqueue_style( 'prism_css', plugins_url( '/css/prism.css' , __FILE__ ) );
 }
 
